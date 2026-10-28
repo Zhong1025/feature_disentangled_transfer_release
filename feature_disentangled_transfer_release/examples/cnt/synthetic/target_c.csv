@@ -1,0 +1,10 @@
+sample_id,data_origin,Process Temp(oC),Total flow (sccm),H2 flow (sccm),C-flow (sccm),H/C,Carbon_Gibbs,Carbon_Enthalpy,Cat_MeltingPoint,Predicted Formation Energy,Cat_LatticeConstant,Etch_level(ppm),Thermal Conductivity,Support_latticeConstant,Support_AnnealingTemp,Support_AnnealingTime,Chirality Classification
+synthetic_cnt_target_c_01,synthetic / demonstration only,738.091,64.108,18.897,6.9,2.738695652,39.069,-93.101,1014.199,-4.227,2.985,43.218,96.722,3.116,592.445,1.1,1
+synthetic_cnt_target_c_02,synthetic / demonstration only,881.771,81.384,49.246,5.217,9.439524631,74.08,-105.358,1577.521,-3.938,2.325,21.728,73.126,3.255,581.863,1.267,2
+synthetic_cnt_target_c_03,synthetic / demonstration only,676.417,93.395,25.408,5.46,4.653479853,-119.662,81.394,1323.071,-2.122,4.226,33.531,37.058,2.28,599.271,0.995,3
+synthetic_cnt_target_c_04,synthetic / demonstration only,815.926,67.664,22.557,7.088,3.182420993,-58.143,-47.902,1241.44,-3.817,2.382,21.022,94.096,4.709,670.842,1.423,1
+synthetic_cnt_target_c_05,synthetic / demonstration only,600.122,64.541,22.038,5.288,4.167549168,-34.022,-5.004,1392.823,-3.14,3.326,10.685,47.845,5.605,638.807,0.755,2
+synthetic_cnt_target_c_06,synthetic / demonstration only,789.882,58.596,13.392,5.093,2.629491459,43.685,37.785,1403.677,-4.101,2.597,1.221,25.239,3.901,654.921,0.609,3
+synthetic_cnt_target_c_07,synthetic / demonstration only,658.331,94.138,26.578,5.779,4.599065582,-21.125,-89.004,1393.635,-4.978,4.253,38.502,11.552,3.701,452.766,1.937,1
+synthetic_cnt_target_c_08,synthetic / demonstration only,674.759,103.919,30.718,2.301,13.349847892,-28.708,50.354,1400.547,-1.048,3.786,47.502,89.251,4.451,615.782,1.257,2
+synthetic_cnt_target_c_09,synthetic / demonstration only,869.162,113.129,43.223,5.287,8.175335729,-25.065,-85.202,1148.344,-2.449,4.297,26.065,63.048,3.098,423.245,0.929,3

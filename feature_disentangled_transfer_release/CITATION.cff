@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript; publication DOI is not supplied."
+title: "Feature-disentangled prior transfer for small-sample chirality prediction in carbon nanotube synthesis"
+type: software
+version: "0.1.0"
+authors:
+  - family-names: Zhong
+    given-names: Jing

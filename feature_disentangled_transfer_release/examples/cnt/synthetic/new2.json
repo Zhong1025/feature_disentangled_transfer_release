@@ -1,0 +1,68 @@
+[
+  {
+    "sample_id": "synthetic_cnt_new2_01",
+    "data_origin": "synthetic / demonstration only",
+    "data": {
+      "Process Temp(oC)": 640.71,
+      "Total flow (sccm)": 64.642,
+      "H2 flow (sccm)": 11.084,
+      "C-flow (sccm)": 5.856,
+      "H/C": 1.892759563,
+      "Carbon_Gibbs": -109.943,
+      "Carbon_Enthalpy": -55.224,
+      "Cat_MeltingPoint": 1126.996,
+      "Predicted Formation Energy": -3.693,
+      "Cat_LatticeConstant": 4.284,
+      "Etch_level(ppm)": 18.956,
+      "Thermal Conductivity": 75.449,
+      "Support_latticeConstant": 5.328,
+      "Support_AnnealingTemp": 475.681,
+      "Support_AnnealingTime": 0.623,
+      "Chirality Classification": 1
+    }
+  },
+  {
+    "sample_id": "synthetic_cnt_new2_02",
+    "data_origin": "synthetic / demonstration only",
+    "data": {
+      "Process Temp(oC)": 899.972,
+      "Total flow (sccm)": 57.01,
+      "H2 flow (sccm)": 10.775,
+      "C-flow (sccm)": 5.237,
+      "H/C": 2.057475654,
+      "Carbon_Gibbs": 10.029,
+      "Carbon_Enthalpy": 45.308,
+      "Cat_MeltingPoint": 1391.053,
+      "Predicted Formation Energy": -1.983,
+      "Cat_LatticeConstant": 4.849,
+      "Etch_level(ppm)": 9.968,
+      "Thermal Conductivity": 3.018,
+      "Support_latticeConstant": 2.61,
+      "Support_AnnealingTemp": 437.866,
+      "Support_AnnealingTime": 1.504,
+      "Chirality Classification": 2
+    }
+  },
+  {
+    "sample_id": "synthetic_cnt_new2_03",
+    "data_origin": "synthetic / demonstration only",
+    "data": {
+      "Process Temp(oC)": 809.839,
+      "Total flow (sccm)": 101.881,
+      "H2 flow (sccm)": 32.559,
+      "C-flow (sccm)": 3.308,
+      "H/C": 9.842503023,
+      "Carbon_Gibbs": -86.442,
+      "Carbon_Enthalpy": 1.812,
+      "Cat_MeltingPoint": 1448.755,
+      "Predicted Formation Energy": -4.542,
+      "Cat_LatticeConstant": 4.458,
+      "Etch_level(ppm)": 48.236,
+      "Thermal Conductivity": 11.702,
+      "Support_latticeConstant": 2.103,
+      "Support_AnnealingTemp": 493.587,
+      "Support_AnnealingTime": 1.516,
+      "Chirality Classification": 3
+    }
+  }
+]

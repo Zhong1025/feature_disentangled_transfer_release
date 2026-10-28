@@ -1,0 +1,13 @@
+sample_id,data_origin,Process Temp(oC),Total flow (sccm),H2 flow (sccm),C-flow (sccm),H/C,Carbon_Gibbs,Carbon_Enthalpy,Cat_MeltingPoint,Predicted Formation Energy,Cat_LatticeConstant,Etch_level(ppm),Thermal Conductivity,Support_latticeConstant,Support_AnnealingTemp,Support_AnnealingTime
+synthetic_cnt_source_a_01,synthetic / demonstration only,682.509,71.12,35.577,2.15,16.54744186,27.294,19.175,1535.308,-4.652,3.266,1.49,22.645,4.021,407.961,0.798
+synthetic_cnt_source_a_02,synthetic / demonstration only,666.132,96.621,35.995,5.27,6.830170778,41.886,-148.375,1483.492,-2.207,3.021,7.774,95.764,3.346,427.824,0.645
+synthetic_cnt_source_a_03,synthetic / demonstration only,842.138,113.306,43.9,5.622,7.808609036,-12.754,93.279,1227.121,-2.792,4.488,30.926,86.309,4.309,611.372,0.569
+synthetic_cnt_source_a_04,synthetic / demonstration only,623.938,56.819,19.116,3.736,5.116702355,-99.8,-80.507,1381.411,-3.541,3.111,10.475,27.431,5.747,594.411,1.414
+synthetic_cnt_source_a_05,synthetic / demonstration only,649.021,65.988,16.846,6.375,2.642509804,77.905,10.0,1334.17,-2.262,4.529,38.8,23.676,2.128,494.636,0.902
+synthetic_cnt_source_a_06,synthetic / demonstration only,862.91,64.977,18.439,7.657,2.408123286,11.088,-51.092,1548.729,-3.165,2.795,12.331,56.575,3.051,575.376,1.847
+synthetic_cnt_source_a_07,synthetic / demonstration only,899.261,79.864,25.976,3.316,7.833534379,-101.818,-138.221,1065.789,-2.49,4.376,21.108,7.289,3.526,698.836,1.294
+synthetic_cnt_source_a_08,synthetic / demonstration only,603.444,119.251,48.843,7.165,6.816887648,16.342,-15.757,1160.095,-2.436,2.335,21.738,45.919,5.815,662.756,0.895
+synthetic_cnt_source_a_09,synthetic / demonstration only,873.788,105.326,30.023,3.072,9.773111979,-60.311,9.737,1365.382,-4.389,4.288,26.969,78.084,4.121,400.172,0.986
+synthetic_cnt_source_a_10,synthetic / demonstration only,863.617,88.254,10.779,7.575,1.422970297,-58.497,-135.519,1526.806,-1.212,2.257,24.3,7.852,5.042,629.75,0.693
+synthetic_cnt_source_a_11,synthetic / demonstration only,679.517,106.656,29.011,5.299,5.474806567,-35.372,-97.05,1323.578,-2.08,2.603,15.586,99.52,4.6,531.43,1.276
+synthetic_cnt_source_a_12,synthetic / demonstration only,701.426,73.487,14.84,3.348,4.432497013,-73.977,-94.946,1042.596,-2.476,2.687,45.271,86.104,2.283,471.401,1.503

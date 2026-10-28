@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+outputs/
+*.log
+
+# Restricted research inputs and historical predictions are supplied separately.
+/data/
+/weights/
+/reference/
+/private_archive*/
+/private_data*/
+
+# Locally generated models, data packages and execution artifacts.
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.joblib
+*.npz
+*.zip
+*.tar
+*.tar.gz
+*.7z
+/tmp/
+/dist/
+/build/
+.pytest_cache/
+
+# Public CSV/JSON examples under examples/ remain versioned.

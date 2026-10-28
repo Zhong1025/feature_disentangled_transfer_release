@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "source_document": "补充信息SI_1012_精简核定版.pdf",
+  "source_document_sha256": "6228a44315fd360037e3976e9bdabac26c36c020f603622c662079937f967300",
+  "source_status": "Author-supplied Supplementary Information. This metadata does not assert that the manuscript or SI has been formally published.",
+  "purpose": "Representative interface examples only; not a training dataset, evaluation set, or basis for reproducing the reported metrics.",
+  "source_policy": "Displayed contents of Supplementary Tables S2 and S7 were transcribed. In Table S7, records #2-#4 identify SiO2/Si supports; their Thermal Conductivity values were corrected from 149 to 1.4 after resolving the substrate-mapping precedence bug. Restricted row-level records, checkpoints and predictions are not included in the public examples.",
+  "transcription_rules": [
+    "Each source table column becomes one CSV record; the fifteen descriptor names are mapped to the existing model interface without changing the values.",
+    "Numeric tokens retain the printed precision except documented MoS2 substrate-mapping corrections in Table S7. No hidden precision, additional records, inferred raw inputs, imputation or unit conversion is supplied.",
+    "The literal NA preserves a missing descriptor shown in Table S7. Empty target cells indicate that the target is not applicable to that dataset or is not disclosed in Table S2.",
+    "Line wrapping within DOI and Row ID cells is removed; all identifier characters are preserved.",
+    "sample_id, data_origin, source_table and dataset are release metadata. sample_id is a local example identifier, not a newly disclosed private dataset row identifier.",
+    "Table S7 is already mapped to the CNT-compatible descriptor interface; it is not a raw MoS2 synthesis table and must not be passed to the raw MoS2 mapping loader.",
+    "Table S7 corrections are documented in the source policy. The public examples contain only the representative values shown in the revised SI and do not include restricted row-level experiment records."
+  ],
+  "descriptor_mapping": [
+    {
+      "csv_column": "Process Temp(oC)",
+      "source_header": "Process Temp (°C)",
+      "unit_as_printed": "°C"
+    },
+    {
+      "csv_column": "Total flow (sccm)",
+      "source_header": "Total flow (sccm)",
+      "unit_as_printed": "sccm"
+    },
+    {
+      "csv_column": "H2 flow (sccm)",
+      "source_header": "H₂ flow (sccm)",
+      "unit_as_printed": "sccm"
+    },
+    {
+      "csv_column": "C-flow (sccm)",
+      "source_header": "C-flow (sccm)",
+      "unit_as_printed": "sccm"
+    },
+    {
+      "csv_column": "H/C",
+      "source_header": "H/C",
+      "unit_as_printed": null
+    },
+    {
+      "csv_column": "Carbon_Gibbs",
+      "source_header": "Carbon_Gibbs",
+      "unit_as_printed": null
+    },
+    {
+      "csv_column": "Carbon_Enthalpy",
+      "source_header": "Carbon_Enthalpy",
+      "unit_as_printed": null
+    },
+    {
+      "csv_column": "Cat_MeltingPoint",
+      "source_header": "Cat_MeltingPoint",
+      "unit_as_printed": null
+    },
+    {
+      "csv_column": "Predicted Formation Energy",
+      "source_header": "Predicted Formation Energy",
+      "unit_as_printed": null
+    },
+    {
+      "csv_column": "Cat_LatticeConstant",
+      "source_header": "Cat_LatticeConstant",
+      "unit_as_printed": null
+    },
+    {
+      "csv_column": "Etch_level(ppm)",
+      "source_header": "Etch_level (ppm)",
+      "unit_as_printed": "ppm"
+    },
+    {
+      "csv_column": "Thermal Conductivity",
+      "source_header": "Thermal Conductivity",
+      "unit_as_printed": null
+    },
+    {
+      "csv_column": "Support_latticeConstant",
+      "source_header": "Support_latticeConstant",
+      "unit_as_printed": null
+    },
+    {
+      "csv_column": "Support_AnnealingTemp",
+      "source_header": "Support_AnnealingTemp",
+      "unit_as_printed": null
+    },
+    {
+      "csv_column": "Support_AnnealingTime",
+      "source_header": "Support_AnnealingTime",
+      "unit_as_printed": null
+    }
+  ],
+  "unit_policy": "Units are recorded only when explicitly shown in the S2/S7 descriptor header. A null unit means not stated in these tables, not dimensionless. Other physical units are not inferred from descriptor names. For MoS2, preserved CNT-compatible column names do not establish equivalent physical meaning.",
+  "files": [
+    {
+      "path": "examples/cnt/representative_inputs.csv",
+      "table": "Supplementary Table S2",
+      "pdf_page": 20,
+      "printed_page": 20,
+      "row_count": 3,
+      "source_columns": [
+        "Dataset A",
+        "Dataset B",
+        "Dataset C"
+      ],
+      "data_stage": "CNT model-input descriptors with only the targets printed in Table S2",
+      "sample_ids": [
+        "si_s2_a",
+        "si_s2_b",
+        "si_s2_c"
+      ],
+      "target_mapping": [
+        {
+          "csv_column": "Height",
+          "source_cell": "Dataset A: Height=126",
+          "unit_as_printed": null
+        },
+        {
+          "csv_column": "G/D",
+          "source_cell": "Dataset A: G/D=7.4",
+          "unit_as_printed": null
+        },
+        {
+          "csv_column": "ln_density",
+          "source_cell": "Dataset B: ln density=3.912",
+          "unit_as_printed": null
+        },
+        {
+          "csv_column": "Chiral Index",
+          "source_cell": "Dataset C: (6,5)",
+          "unit_as_printed": null
+        },
+        {
+          "csv_column": "Chiral angle",
+          "source_cell": "Dataset C: angle=27",
+          "unit_as_printed": null
+        },
+        {
+          "csv_column": "Chirality Classification",
+          "source_cell": "Dataset C: original source code = 3",
+          "encoding": "one-based source label; preserved as 3"
+        },
+        {
+          "csv_column": "label_0based",
+          "source_cell": "Table S2 footnote: corresponding to report code 2",
+          "encoding": "zero-based report label; preserved as 2"
+        },
+        {
+          "csv_column": "chirality_group",
+          "source_cell": "Dataset C: near-Armchair"
+        }
+      ]
+    },
+    {
+      "path": "examples/mos2/representative_mapped_inputs.csv",
+      "table": "Supplementary Table S7",
+      "pdf_page": 23,
+      "printed_page": 23,
+      "row_count": 2,
+      "source_columns": [
+        "#1",
+        "#2"
+      ],
+      "data_stage": "Already mapped fifteen-dimensional descriptors; not raw MoS2 synthesis inputs",
+      "sample_ids": [
+        "si_s7_01",
+        "si_s7_02"
+      ],
+      "identifier_mapping": {
+        "row_id": "Row ID",
+        "doi": "DOI",
+        "layer_group": "Layer group",
+        "layer_class_3": "Layer class"
+      },
+      "label_encoding": "Layer class 0 is monolayer for both selected source records; labels are copied directly."
+    }
+  ],
+  "verification": {
+    "source_pages_rendered_and_visually_checked": [
+      20,
+      23
+    ],
+    "rendering_tool": "Poppler pdftoppm",
+    "transcription_cross_check": "pypdf text extraction and rendered table cells",
+    "private_data_used": false,
+    "models_run": false
+  }
+}
